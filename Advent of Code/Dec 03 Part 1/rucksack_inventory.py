@@ -31,7 +31,8 @@ with open(file_to_use, 'r') as file:
         pocket_one.append(x[0:split_point])
         pocket_two.append(x[split_point:])
 
-#this is to compare the items each of the pockets and to stop when a match is made and append the match to the inventory list    
+#this is to compare the items each of the pockets and to stop when a match is made
+#and append the match to the inventory list    
 while i < len(pocket_one):
     for char in pocket_one[i]:
         for letter in pocket_two[i]:
