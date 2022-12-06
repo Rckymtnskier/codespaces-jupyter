@@ -1,5 +1,5 @@
 #this references the local file to use as input and creates the requiste lists for the script
-file_to_use = '/workspaces/codespaces-jupyter/Advent of Code/Dec 01/data_input.txt'
+file_to_use = '/workspaces/codespaces-jupyter/Advent of Code/Dec 01 Part 1/data_input.txt'
 data_list = []
 elf_calories = []
 total_calories_per_elf = []
