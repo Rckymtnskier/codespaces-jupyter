@@ -53,13 +53,13 @@ for command in commands:
         directory = []
 
 #this is to clean up the file system list
-file_system = [list for list in file_system if list != []]
+#file_system = [list for list in file_system if list != []]
 
 for list in file_system:
     print(list)
 
-for line in file_system:
-    directory_value = [ele for ele in line if type(ele)==int]
-    value_list.append(directory_value)
+#for line in file_system:
+#    directory_value = [ele for ele in line if type(ele)==int]
+#    value_list.append(directory_value)
 
 
